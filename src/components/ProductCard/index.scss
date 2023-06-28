@@ -1,0 +1,30 @@
+@use "../../sass/variables" as *;
+
+.home__card{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    // height: 337px;
+    border: 1px solid $border-input-color;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+p{
+    margin: 15px;
+}
+
+button{
+    margin-top: 0;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 14px;
+    width: 128px;
+    height: 24px;
+    margin-bottom: 16px;
+    border: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
